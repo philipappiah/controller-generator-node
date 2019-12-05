@@ -3,6 +3,9 @@
 const fs = require("fs");
 
 const [,, ...args] = process.argv;
+if(args[0] === "create-controller" || args[0]=== "controller-generator"){
+  console.log("The command has been changed to 'controller-generate'");
+}
 
 console.log(__dirname);
 

@@ -1,6 +1,6 @@
 {
-  "name": "create-controller",
-  "version": "1.0.0",
+  "name": "controller-generator",
+  "version": "1.1.0",
   "description": "node api controller generator",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/philipappiah/create-controller.git"
+    "url": "https://github.com/philipappiah/controller-generator.git"
   },
   "keywords": [
     "controller-generator"
@@ -17,14 +17,14 @@
   "author": "Philip Appiah kubi <pappiahkubi1@mgail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/philipappiah/create-controller/issues"
+    "url": "https://github.com/philipappiah/controller-generator-node/issues"
   },
-  "homepage": "https://github.com/philipappiah/create-controller#readme",
+  "homepage": "https://github.com/philipappiah/controller-generator-node#readme",
   "dependencies": {
     "fs": "0.0.1-security",
     "path": "^0.12.7"
   },
   "bin": {
-    "create-controller": "./index.js"
+    "controller-generate": "./index.js"
   }
 }
