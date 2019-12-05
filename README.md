@@ -7,7 +7,7 @@ In the project directory, you can run:
 Run the following script on the command line.<br />
 controller-generate <b>name1</b> <b>name2</b> <b>name3</b> 
 
-Where the 'names' refer to names you want to give to you controller(s).<br />
+Where the 'names' refer to names you want to give to your controller(s).<br />
 
 
 
