@@ -11,7 +11,7 @@ Where the 'names' refer to names you want to give to your controller(s).<br />
 
 
 
-### Example for generating two or more
+### Example for generating two or more controllers
 <ol>
 <li>npm install controller-generator</li>
 <li>controller-generate hospital management pharmacy</li>
