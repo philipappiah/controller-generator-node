@@ -1,5 +1,5 @@
 {
-  "name": "y",
+  "name": "controller-generator",
   "version": "1.0.0",
   "description": "node api controller generator",
   "main": "index.js",
