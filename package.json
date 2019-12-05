@@ -25,6 +25,8 @@
     "path": "^0.12.7"
   },
   "bin": {
-    "controller-generate": "./index.js"
+    "controller-generate": "./index.js",
+    "controller-create": "./index.js",
+    "controller-generator": "./index.js"
   }
 }

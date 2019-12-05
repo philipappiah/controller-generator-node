@@ -7,10 +7,10 @@ if(args[0] === "create-controller" || args[0]=== "controller-generator"){
   console.log("The command has been changed to 'controller-generate'");
 }
 
-console.log(__dirname);
+
 
 let pathExists = `./Controllers`;
-console.log(pathExists);
+
 
   try {
     if (!fs.existsSync(pathExists)) {
