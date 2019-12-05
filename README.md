@@ -8,7 +8,7 @@ yarn add controller-generator
 
 #usage
 just run this on the command line inside your project directory
-create-controller controllerName1 controllerName2 controllerName3 ....
+=>create-controller controllerName1 controllerName2 controllerName3 ....
 
 
 
