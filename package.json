@@ -14,7 +14,7 @@
   "keywords": [
     "controller-generator"
   ],
-  "author": "Philip Appiah kubi",
+  "author": "Philip Appiah kubi <pappiahkubi1@mgail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/philipappiah/controller-generator-node/issues"
@@ -23,5 +23,8 @@
   "dependencies": {
     "fs": "0.0.1-security",
     "readline": "^1.3.0"
+  },
+  "bin": {
+    "create-controller": "./index.js"
   }
 }

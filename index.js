@@ -1,13 +1,12 @@
+#!/usr/bin/env node
+
 const fs = require("fs");
+
+const [,, ...args] = process.argv;
+
+
+
 let pathExists = `${__dirname}/Controllers`;
-
-const readline = require("readline").createInterface({
-  input: process.stdin,
-  output: process.stdout
-});
-
-readline.question(`Enter controller name(s): `, names => {
-  fileNames = names.split(" ");
 
   try {
     if (!fs.existsSync(pathExists)) {
@@ -17,7 +16,7 @@ readline.question(`Enter controller name(s): `, names => {
     console.error(err);
   }
 
-  fileNames.map(function(res, i) {
+  args.map(function(res) {
     fs.writeFile(`${__dirname}/Controllers/${res}Controller.js`, "", function(
       err
     ) {
@@ -25,7 +24,7 @@ readline.question(`Enter controller name(s): `, names => {
     });
 
     fs.copyFile(
-      "controllerHolder.js",
+      "./controllerHolder.js",
       `${__dirname}/Controllers/${res}Controller.js`,
 
       function(err) {
@@ -33,8 +32,5 @@ readline.question(`Enter controller name(s): `, names => {
       }
     );
   });
-  let fileCount = fileNames.length > 1 ? "Files" : "File";
-  console.log(`${fileNames.length} ${fileCount} created successfully.`);
-
-  readline.close();
-});
+  let fileCount = args.length > 1 ? "Files" : "File";
+  console.log(`${args.length} ${fileCount} created successfully.`);
