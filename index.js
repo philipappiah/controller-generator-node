@@ -4,9 +4,10 @@ const fs = require("fs");
 
 const [,, ...args] = process.argv;
 
+console.log(__dirname);
 
-
-let pathExists = `${__dirname}/Controllers`;
+let pathExists = `./Controllers`;
+console.log(pathExists);
 
   try {
     if (!fs.existsSync(pathExists)) {
@@ -17,15 +18,15 @@ let pathExists = `${__dirname}/Controllers`;
   }
 
   args.map(function(res) {
-    fs.writeFile(`${__dirname}/Controllers/${res}Controller.js`, "", function(
+    fs.writeFile(`./Controllers/${res}Controller.js`, "", function(
       err
     ) {
       if (err) throw err;
     });
 
     fs.copyFile(
-      "./controllerHolder.js",
-      `${__dirname}/Controllers/${res}Controller.js`,
+      `${__dirname}/controllerHolder.js`,
+      `./Controllers/${res}Controller.js`,
 
       function(err) {
         if (err) throw err;

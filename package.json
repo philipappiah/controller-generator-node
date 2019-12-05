@@ -21,7 +21,8 @@
   },
   "homepage": "https://github.com/philipappiah/controller-generator-node#readme",
   "dependencies": {
-    "fs": "0.0.1-security"
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
   },
   "bin": {
     "create-controller": "./index.js"
