@@ -1,23 +1,26 @@
 Nodejs api Controller generator. It basically auto generates the controller directory and files prefilled with functions for the developer.
 
 
-
 ### `Guide to using locally in your project` 
 ### `In your project directory, run npm install controller-generator OR yarn add controller-generator`
 
-Follow these steps.<br />
-<ol>
-</li>Add "controller-generate": "controller-generate" to scripts in your package.json</li>
-<li> npm run controller-generate <b>name1</b> <b>name2</b> <b>name3</b>   </li>
-</ol>
+Add the following to scripts in your package.json<br/>
+### `"controller-generate": "controller-generate"`
 
+Run the following command:<br>
+### `npm run controller-generate <b>name1</b> <b>name2</b> <b>name3</b> `
 Where the 'names' refer to names you want to give to your controller(s).<br />
+
+
 
 
 
 ### `Guide to using globally` 
 ### `run npm install -g controller-generator OR yarn global add controller-generator`
-###  Run the following command:  controller-generate <b>name1</b> <b>name2</b> <b>name3</b>
+Run the following command:<br/>
+### `controller-generate <b>name1</b> <b>name2</b> <b>name3</b>`
+
+
 
 
 ### Example for generating two or more controllers
