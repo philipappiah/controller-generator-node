@@ -1,6 +1,6 @@
 {
   "name": "controller-generator",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "node api controller generator",
   "preferGlobal": true,
   "main": "index.js",
@@ -26,8 +26,8 @@
     "path": "^0.12.7"
   },
   "bin": {
-    "controller-generate": "./cli.js",
-    "create-controller": "./cli.js",
-    "controller-generator": "./cli.js"
+    "controller-generate": "./index.js",
+    "create-controller": "./index.js",
+    "controller-generator": "./index.js"
   }
 }
