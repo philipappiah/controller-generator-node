@@ -8,7 +8,7 @@ Add the following to scripts in your package.json<br/>
 ### `"controller-generate": "controller-generate"`
 
 Run the following command:<br>
-### `npm run controller-generate <b>name1</b> <b>name2</b> <b>name3</b> `
+### `npm run controller-generate name1 name2 name3 `
 Where the 'names' refer to names you want to give to your controller(s).<br />
 
 
@@ -18,7 +18,7 @@ Where the 'names' refer to names you want to give to your controller(s).<br />
 ### `Guide to using globally` 
 ### `run npm install -g controller-generator OR yarn global add controller-generator`
 Run the following command:<br/>
-### `controller-generate <b>name1</b> <b>name2</b> <b>name3</b>`
+### `controller-generate name1 name2 name3`
 
 
 
