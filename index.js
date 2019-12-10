@@ -36,5 +36,5 @@ let pathExists = `./Controllers`;
       }
     );
   });
-  let fileCount = args.length > 1 ? "Files" : "File";
+  const fileCount = args.length > 1 ? "Files" : "File";
   console.log(`${args.length} ${fileCount} created successfully.`);
