@@ -7,10 +7,7 @@ if(args[0] === "create-controller" || args[0]=== "controller-generator"){
   console.log("The command has been changed to 'controller-generate'");
 }
 
-
-
-let pathExists = `./Controllers`;
-
+const pathExists = `./Controllers`;
 
   try {
     if (!fs.existsSync(pathExists)) {
@@ -36,5 +33,5 @@ let pathExists = `./Controllers`;
       }
     );
   });
-  let fileCount = args.length > 1 ? "Files" : "File";
+  const fileCount = args.length > 1 ? "Files" : "File";
   console.log(`${args.length} ${fileCount} created successfully.`);
