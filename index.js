@@ -52,7 +52,7 @@ let rejectedFiles = 0;
   if(filesCreated > 0) {
     if(filesCreated > 0) {
       filesCreated === 1 ?  console.log(`${filesCreated} file created successfully.`) 
-        : console.log(`${args.length} ${filesCreated} files created successfully.`);
+        : console.log(`${filesCreated} files created successfully.`);
     }
   }
   
