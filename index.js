@@ -42,7 +42,7 @@ let rejectedFiles = 0;
     }
   });
 
-  // show the user the number of files created
+  // **show the user the number of files created**
   if(rejectedFiles > 0) {
     rejectedFiles === 1 ? console.log(`${rejectedFiles} FILE NOT CREATED : The file you are trying to create already exists`) 
       : console.log(`${rejectedFiles} FILES NOT CREATED : The files you are trying to create already exist`);
