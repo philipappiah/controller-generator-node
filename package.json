@@ -1,6 +1,6 @@
 {
   "name": "controller-generator",
-  "version": "1.1.9",
+  "version": "1.2.0",
   "description": "node api controller generator",
   "preferGlobal": true,
   "main": "index.js",
